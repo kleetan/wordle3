@@ -1,4 +1,4 @@
-
+import pandas as pd
 # Excelファイルからデータを読み込む
 df = pd.read_excel('words.xlsx', sheet_name='Sheet1')
 
