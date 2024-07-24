@@ -3,7 +3,7 @@ import random
 import streamlit as st
 
 # Excelファイルからデータを読み込む
-df = pd.read_excel('"C:\Users\softc\Downloads\words.xlsx"', sheet_name='Sheet1')
+df = pd.read_excel('words.xlsx', sheet_name='Sheet1')
 
 # 単語リストをCEFRレベル別に分けるための辞書
 word_list = {
