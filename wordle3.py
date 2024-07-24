@@ -1,6 +1,3 @@
-import pandas as pd
-import random
-import streamlit as st
 
 # Excelファイルからデータを読み込む
 df = pd.read_excel('words.xlsx', sheet_name='Sheet1')
